@@ -3,7 +3,7 @@
 
     http://jmloureiro77.blogspot.com.es
 
-  328P Flash 5292 (17%) RAM 409(19%)
+  328P Flash 5462 (17%) RAM 409(19%)
 
  - LCD SIN parpadeo
  - Sistema de menus SIN libreria
