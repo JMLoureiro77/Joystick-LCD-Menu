@@ -3,7 +3,7 @@
 
     http://jmloureiro77.blogspot.com.es
 
-  328P Flash 5462 (17%) RAM 409(19%)
+  328P Flash 5292 (17%) RAM 409(19%)
 
  - LCD SIN parpadeo
  - Sistema de menus SIN libreria
@@ -271,7 +271,7 @@ int leeJoystick(){
     if(!PQCP){PQCP=1;}
     }
   if(((millis() - lastDebounceTime) > (5*debounceDelay))&&(joyPos==3||joyPos==4)){
-    joyPos=joyRead;                     //repeat time
+    joyPos=joyRead;                     //repeat time only for UP/DOWN
     if(!PQCP){PQCP=1;}
     }
   lastJoyPos=joyRead;
